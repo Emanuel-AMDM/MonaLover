@@ -1,0 +1,102 @@
+/* ultiliza a pagina inteira  */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 15px Arial;
+}
+
+/*                              MENU                                      */
+#menu ul{
+    /* remove as bolinhas da lista */
+    list-style: none;
+    /* tamanho de quando o campo ocupa, como em cima tirei as bolinhas ele ficou pra frente
+    sem bolinha, padding: 0; para ele nao ocupar espaços desnecessarios */
+    padding: 20px;
+    /* coloca cor nesse id inteiro */
+    background-color: black;
+    text-align: center;
+}
+
+/* pegando os filhos de li */
+#menu ul li{
+    /* deixa os <li> em linha */
+    display: inline;
+
+}
+/* pegando os filhos de a */
+#menu ul li a{
+    /* deixa os li em linha <a>*/
+    display: inline;
+    /* muda a cor dos elementos <a>*/
+    color: white;
+    /* tira a decoração do texto <a>*/
+    text-decoration: none;
+    /* define o espaço de cada elemento <a>*/
+    padding: 20px;
+    /* define um tempo para transição de cada elemento,
+    demora um tempo para sair de um elemento a outro quando passa o mouse em cima do mesmo */
+    transition: all .3s;
+}
+
+/* :hover serve para quando no eu passar o mouse no botão link ele mudar de cor */
+#menu ul li a:hover{
+    background-color: rgb(152, 152, 247);
+}
+
+/*                        PRIMEIRA DIV                       */
+
+h2{
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    width: 550px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+}
+
+h3{
+    text-align: inherit 10px;
+    display: inline-block;
+}
+
+/*                              FOOTER                                      */
+
+footer{
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin-top: 463px;
+}
+
+#footer ul{
+    /* remove as bolinhas da lista */
+    list-style: none;
+    /* tamanho de quando o campo ocupa, como em cima tirei as bolinhas ele ficou pra frente
+    sem bolinha, padding: 0; para ele nao ocupar espaços desnecessarios */
+    padding: 10px;
+    /* coloca cor nesse id inteiro */
+    background-color: black;
+    /* alinha os elementos no centro */
+    text-align: center;
+}
+
+/* pegando os filhos de li */
+#footer ul li{
+    /* deixa os <li> em linha */
+    display: inline;
+
+}
+/* pegando os filhos de a */
+#footer ul li a i{
+    /* deixa os li em linha <a>*/
+    display: inline;
+    /* muda a cor dos elementos <a>*/
+    color: white;
+    padding: 10px;
+}
