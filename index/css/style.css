@@ -1,6 +1,6 @@
 /* ultiliza a pagina inteira  */
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font: normal 15px Arial;
@@ -55,12 +55,23 @@ img{
     width: 550px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px black;
-    display: inline-block;
+    /* display: inline-block; Removido pra poder o flex-box funcionar corretamente */
 }
 
-h3{
-    text-align: inherit 10px;
-    display: inline-block;
+
+.projects {
+    .wrapper {
+        display: flex; /* Implementa o tipo de display dos dentro dessa div */
+        align-items: flex-start; /* Alinha os itens no centro */
+        gap: 15px; /* Coloca um espaço entre os itens */
+
+        h3{
+            text-align: inherit 10px;
+            margin-top: 15px;
+            font-size: 50px;
+            /* display: inline-block; Removido pra poder o flex-box funcionar corretamente */
+        }
+    }
 }
 
 /*                              FOOTER                                      */
