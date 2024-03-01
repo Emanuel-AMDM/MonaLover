@@ -1,0 +1,39 @@
+CRUD:
+index
+
+listagem
+read
+criação
+edição
+delete
+
+TABELAS:
+users   - id(int), name(varchar(255)), email(varchar(255)), nickname(varchar(255)) password(varchar(255)), created_at(date), updated_at(date)
+posts   - id(int), description(text),  created_at(date),    updated_at(date)
+medias  - id(int), id_post(int),       tp_media(int),       created_at(date),      updated_at(date)
+coments - id(int), coment(text),       id_user(int),        id_post(int),          created_at(date),       updated_at(date)
+likes   - id(int), status(int),        id_user(int),        id_post(int),          created_at(date),       updated_at(date)
+
+BANCO:
+-fazer a ligação certinha dos bancos
+-chave primaria
+-chave estrangeira
+
+LOGIN:
+-login
+-senha
+
+CADASTRO DA PESSOA:
+-login
+-senha
+-nome
+-sobrenome
+-email
+-senha
+-data de nascimento
+
+BLOG COM POSTAGENS EXCLUSIVAS:
+-video
+-foto
+-descricao
+-texto
