@@ -1,29 +1,28 @@
 CRUD:
 index
-
 listagem
 read
 criação
 edição
 delete
 
-TABELAS:
+TABELAS - FEITO:
 users   - id(int), name(varchar(255)), email(varchar(255)), nickname(varchar(255)) password(varchar(255)), created_at(date), updated_at(date)
 posts   - id(int), description(text),  created_at(date),    updated_at(date)
 medias  - id(int), id_post(int),       tp_media(int),       created_at(date),      updated_at(date)
 coments - id(int), coment(text),       id_user(int),        id_post(int),          created_at(date),       updated_at(date)
 likes   - id(int), status(int),        id_user(int),        id_post(int),          created_at(date),       updated_at(date)
 
-BANCO:
+BANCO - FEITO:
 -fazer a ligação certinha dos bancos
 -chave primaria
 -chave estrangeira
 
-LOGIN:
+LOGIN - FEITO:
 -login
 -senha
 
-CADASTRO DA PESSOA:
+CADASTRO DA PESSOA - FEITO:
 -login
 -senha
 -nome
@@ -37,3 +36,9 @@ BLOG COM POSTAGENS EXCLUSIVAS:
 -foto
 -descricao
 -texto
+
+LINKS PARA O FOOTER:
+instagram: https://www.instagram.com/monalisascolari/
+pinterest: https://br.pinterest.com/monalisascolari/
+youtube:   https://youtube.com/@monalisascolari?si=FCZmbc3Ye8WwQsPY
+midia kit: https://monalisascolari.my.canva.site/midia-kit
