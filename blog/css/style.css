@@ -1,0 +1,41 @@
+/* ultiliza a pagina inteira  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 15px Arial;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+
+    li{
+        display: inline;
+    }
+    
+    a{
+        color:aliceblue;
+        text-decoration: none;
+        padding: 20px;
+        transition: all .3s;
+        display: inline;
+    }
+
+    li p{
+        display: inline;
+        color: white;
+        padding: 10px;
+    }
+
+    li a:hover{
+        background-color: blue;
+    }
+
+    img{
+        width: 50px;
+    }
+
+}
