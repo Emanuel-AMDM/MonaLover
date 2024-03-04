@@ -135,6 +135,8 @@ img{
 /*                       SECTION[1]                       */
 
 .img_mona{
+    text-align: center;
+    
     img{
         width: 400px;
         padding: 20px;
