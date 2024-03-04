@@ -5,6 +5,7 @@ function logar(){
     
     if(login.value == 'manu' && senha.value == '123'){
         res.innerHTML = `<strong>!Logado com sucesso!</strong>`
+        window.location.href = `../blog/index.html`
     }
     else if(login.value == '' || senha.value == ''){
         alert(`!Preencha os campos abaixo!`)
