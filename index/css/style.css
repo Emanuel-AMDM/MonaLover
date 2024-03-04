@@ -44,13 +44,18 @@
     background-color: rgb(152, 152, 247);
 }
 
-/*                        PRIMEIRA DIV                       */
+/*                       SECTION[0]                       */
 
+/* TITULO */
 h2{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    background-color: rgb(161, 149, 149);
+    color: white;
+    margin-top: 20px;
 }
 
+/* DEFINIÇÕES DAS IMAGENS */
 img{
     width: 550px;
     border-radius: 20px;
@@ -58,12 +63,14 @@ img{
     /* display: inline-block; Removido pra poder o flex-box funcionar corretamente */
 }
 
-
+/* CLASS DA SECTION PRINCIPAL */
 .projects {
+    /* CLASS DA PRIMEIRA DIV */
     .wrapper {
         display: flex; /* Implementa o tipo de display dos dentro dessa div */
         align-items: flex-start; /* Alinha os itens no centro */
         gap: 15px; /* Coloca um espaço entre os itens */
+        margin-top: 20px;
 
         h3{
             text-align: inherit 10px;
@@ -71,43 +78,122 @@ img{
             font-size: 50px;
             /* display: inline-block; Removido pra poder o flex-box funcionar corretamente */
         }
+
+        ul li{
+            margin-top: 15px;
+            list-style: none;
+        }
+    }
+
+    /* CLASS DO TEXTO DE RESUMO */
+    #txt_photoshooting{
+
+        .resumo{
+            text-align: center;
+            text-align: inherit 10px;
+            margin-top: 20px;
+        }
+
+        p{
+            text-align: justify;
+        }
+    }
+
+    /* CLASS DA SEGUNDA DIV */ 
+    .wrapper2{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 50px;
+        gap: 15px;
+
+        h3{
+            text-align: inherit 10px;
+            margin-top: 15px;
+            font-size: 50px;
+        }
+
+        ul li{
+            margin-top: 15px;
+            list-style: none;
+        }
+    }
+    /* CLASS DO TEXTO DE RESUMO2 */
+    #txt_merchandising{
+
+        .resumo{
+            text-align: center;
+            text-align: inherit 10px;
+            margin-top: 20px;
+        }
+
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+/*                       SECTION[1]                       */
+
+.img_mona{
+    img{
+        width: 400px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
+
+.resumo_sobre{
+    
+    h3{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    p{
+        margin-top: 20px;
+        text-align: justify;
     }
 }
 
 /*                              FOOTER                                      */
 
-footer{
+.footer{
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
     background-color: black;
     color: white;
-    margin-top: 463px;
+    margin-top: 50px;
+    
+    ul{
+        /* remove as bolinhas da lista */
+        list-style: none;
+        /* tamanho de quando o campo ocupa, como em cima tirei as bolinhas ele ficou pra frente
+        sem bolinha, padding: 0; para ele nao ocupar espaços desnecessarios */
+        padding: 10px;
+        /* coloca cor nesse id inteiro */
+        background-color: black;
+        /* alinha os elementos no centro */
+        text-align: center;
+    }
+    
+    /* pegando os filhos de li */
+    ul li{
+        /* deixa os <li> em linha */
+        display: inline;
+    
+    }
+    
+    /* pegando os filhos de a */
+    ul li a i{
+        /* deixa os li em linha <a>*/
+        display: inline;
+        /* muda a cor dos elementos <a>*/
+        color: white;
+        padding: 10px;
+    }
+    .copy{
+        text-align: center;
+    }
 }
 
-#footer ul{
-    /* remove as bolinhas da lista */
-    list-style: none;
-    /* tamanho de quando o campo ocupa, como em cima tirei as bolinhas ele ficou pra frente
-    sem bolinha, padding: 0; para ele nao ocupar espaços desnecessarios */
-    padding: 10px;
-    /* coloca cor nesse id inteiro */
-    background-color: black;
-    /* alinha os elementos no centro */
-    text-align: center;
-}
-
-/* pegando os filhos de li */
-#footer ul li{
-    /* deixa os <li> em linha */
-    display: inline;
-
-}
-/* pegando os filhos de a */
-#footer ul li a i{
-    /* deixa os li em linha <a>*/
-    display: inline;
-    /* muda a cor dos elementos <a>*/
-    color: white;
-    padding: 10px;
-}
