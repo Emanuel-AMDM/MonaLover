@@ -77,6 +77,52 @@
 
 /*                       SECTION[1]                       */
 
+.jobs{
+
+    background-color: #e8e4e4;
+    padding: 0px 600px;
+
+    h2{
+        font: normal 50px Arial;
+        text-align: center;
+    }
+
+    .img_jobs{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        gap: 30px;
+    }
+
+    .txt_jobs{
+        display: flex;
+        justify-content: space-between;
+
+        #fashion{
+            padding-left: 80px;
+            margin-top: 15px;
+            font: normal 20px Arial;
+        }
+        #autoridade{
+            padding-right: 10px;
+            margin-top: 15px;
+            font: normal 20px Arial;
+        }
+        #video{
+            padding-right: 50px;
+            margin-top: 15px;
+            font: normal 20px Arial;
+        }
+        #vlog{
+            padding-right: 120px;
+            margin-top: 15px;
+            font: normal 20px Arial;
+        }
+    }
+}
+
+/*                       SECTION[2]                       */
+
 /* TITULO */
 
 /* DEFINIÇÕES DAS IMAGENS */
