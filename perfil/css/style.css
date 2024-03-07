@@ -1,0 +1,100 @@
+/* ultiliza a pagina inteira  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 15px Arial;
+}
+
+.menu {
+
+    background-color: #e8e4e4;
+    padding: 20px 0px;
+    
+    ul{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        /* remove as bolinhas da lista */
+        list-style: none;
+    }
+    .perfil{
+        display: flex;
+        padding-left: 1750px;
+        
+        #img_menu{
+            width: 14px;
+            height: 14px;
+        }
+
+
+    }
+
+    
+    ul li a{
+        /* muda a cor dos elementos <a>*/
+        color: rgb(3, 3, 3);
+        /* tira a decoração do texto <a>*/
+        text-decoration: none;
+        /* define o espaço de cada elemento <a>*/
+        padding: 20px;
+        /* define um tempo para transição de cada elemento,
+        demora um tempo para sair de um elemento a outro quando passa o mouse em cima do mesmo */
+        transition: all .3s;
+    }
+
+    /* :hover serve para quando no eu passar o mouse no botão link ele mudar de cor */
+    ul li a:hover{
+        background-color: rgb(82, 178, 216);
+    }
+
+}
+
+.footer{
+    padding: 20px 0px;
+    background-color: black;
+    color: white;
+    
+    ul{
+        /* remove as bolinhas da lista */
+        list-style: none;
+        /* tamanho de quando o campo ocupa, como em cima tirei as bolinhas ele ficou pra frente
+        sem bolinha, padding: 0; para ele nao ocupar espaços desnecessarios */
+        padding: 10px;
+        /* coloca cor nesse id inteiro */
+        background-color: black;
+        /* alinha os elementos no centro */
+        text-align: center;
+    }
+    
+    /* pegando os filhos de li */
+    ul li{
+        /* deixa os <li> em linha */
+        display: inline;
+    
+    }
+    
+    /* pegando os filhos de a */
+    ul li a i{
+        /* deixa os li em linha <a>*/
+        display: inline;
+        /* muda a cor dos elementos <a>*/
+        color: white;
+        padding: 10px;
+    }
+
+    #contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span{
+            margin-top: 5px;
+        }
+    }
+
+    .copy{
+        text-align: center;
+        margin-top: 10px;
+    }
+}
