@@ -12,8 +12,8 @@
     background-image: url(../../img/img_menu.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 800px;
-    height: 800px;
+    background-color: #e8e4e4;
+    height: 650px;
     
     ul{
         display: flex;
