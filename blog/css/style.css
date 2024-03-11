@@ -29,8 +29,6 @@
 
 
     }
-
-    
     ul li a{
         /* muda a cor dos elementos <a>*/
         color: rgb(3, 3, 3);
@@ -122,91 +120,122 @@
 }
 
 .post{
-    .user_post{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        padding-right: 700px;
-        
-        img{
-            width: 14px;
-            height: 14px;
-        }
-    }
 
-    .img_post{
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
-    .descrition_post{
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        padding-right: 290px;
-    }
-
-    .like_post{
-        display: flex;
-        justify-content: center;
-        padding-right: 700px;
-    }
-}
-
-.coment_post{
-    .coment_user{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        padding-right: 700px;
-
-        img{
-            width: 14px;
-            height: 14px;
-        }
-    }
-
-    #gerar_comentario{
-        display: flex;
-        padding-left: 834px;
-        margin-top: 10px;
-    }
-
-    textarea{
+    .content{
+        width: 100%;
+        max-width: 1000px;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 20px;
         border-radius: 10px;
-    }
 
-    .coment_coment{
-        display: flex;
-        justify-content: center;
-        margin-top: 5px;
-
-        i{
+        .user_post{
             display: flex;
-            padding-left: 5px;
-            margin-top: 80px;
+            justify-content: center;
+            margin-top: 30px;
+            padding-right: 700px;
+            
+            img{
+                width: 14px;
+                height: 14px;
+            }
         }
-    }
-
-    .coment{
-        display: flex;
-        padding-left: 834px;
-
-        textarea{
+    
+        .img_post{
+            display: flex;
+            justify-content: center;
             margin-top: 10px;
         }
-        
-        input{
-            width: 80px;
-            height: 25px;
-            margin-top: 70px;
-            border-radius: 5px;
-            background-color: rgb(162, 162, 241);
+    
+        .descrition_post{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            padding-right: 290px;
+        }
+    
+        .like_post{
+            display: flex;
+            justify-content: center;
+            padding-right: 700px;
+        }
+    }
+
+}
+
+.coment_all{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .coment_post{
+
+        width: 100%;
+        max-width: 1000px;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+
+        .coment_user{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            padding-right: 700px;
+
+            img{
+                width: 14px;
+                height: 14px;
+            }
         }
 
-        #button{
-            padding-left: 5px;
+        #gerar_comentario{
+            display: flex;
+            padding-left: 834px;
+            margin-top: 10px;
+        }
+
+        textarea{
+            border-radius: 10px;
+        }
+
+        .coment_coment{
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+
+            i{
+                display: flex;
+                padding-left: 5px;
+                margin-top: 80px;
+            }
+        }
+
+        .coment{
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+
+            textarea{
+                margin-top: 10px;
+            }
+            
+            input{
+                width: 80px;
+                height: 25px;
+                margin-top: 70px;
+                border-radius: 5px;
+                background-color: rgb(162, 162, 241);
+            }
+
+            #button{
+                padding-left: 5px;
+            }
         }
     }
 }
